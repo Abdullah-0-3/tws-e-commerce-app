@@ -17,11 +17,4 @@ spec:
         env:
         - name: MONGODB_URI
           value: "mongodb://mongodb-service:27017/easyshop"
-        resouces:
-          requests:
-            memory: "128Mi"
-            cpu: "100m"
-          limits:
-            memory: "256Mi"
-            cpu: "500m"
       restartPolicy: OnFailure
